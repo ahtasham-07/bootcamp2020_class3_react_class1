@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="back_color">
+      "Hello, my name is <strong>Ahtasham</strong>!"
+      <ol>
+        <li>I am doing <i>ireact</i> practice.</li>
+        <li>And I am making a simple basic <i><strong>react app</strong></i>.</li>
+      </ol>
+      <br/>
+  <b>Calculation:</b> {5+10} 
+  <br/>
+  Calculation Done!
     </div>
   );
 }
