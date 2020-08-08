@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Nose Setup
-      run: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
 
     # Runs a set of commands using the runners shell
     - uses: borales/actions-yarn@v2.0.0
